@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link  rel="stylesheet" href="login.css">
+</head>
+<body>
+   <header>
+    <a href="#" class="logo">MzegeHospital.</a>
+    <nav>
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#login">Login</a>
+        <a href="#contact">Contact</a>
+        <a href="#Admin">Admin Login</a>
+    </nav>
+   </header>
+
+
+<!-- HOME -->
+   <section id="home">
+    <main class="content">
+        <div class="hero">
+            <h2>Welcome to the Hospital</h2>
+            <p>Your health is our priority. We provide top-notch medical care and services.</p>
+            <a href="#about" class="btn-primary">Learn More</a>
+        </div>
+    </main>
+   </section>
+
+<!-- ABOUT US -->
+   <section id="about">
+    <main class="content">
+        <h2>About Us</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="photos/cooperation.jpg" alt="Doctor">
+                <h3>Our Expert Team</h3>
+                <p>Our team has very highly skilled proffesionals who work 24/7.</p>
+            </div>
+            <div class="card">
+                <img src="photos/tech.jpg" alt="Doctor">
+                <h3>State-of-the-Art Facilities</h3>
+                <p>We offer modern facilities to provide the best care for our patients.</p>
+            </div>
+            <div class="card">
+                <img src="photos/pregnantmom.jpg" alt="Doctor">
+                <h3>Compassionate Care</h3>
+                <p>Our team is dedicated to providing compassionate and personalized care.</p>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <img src="photos/1.jpg" alt="Doctor">
+                <h3>Our Expert Prescription</h3>
+                <p>Our team offers advice before using any type of medication.</p>
+            </div>
+            <div class="card">
+                <img src="photos/2.jpg" alt="Doctor">
+                <h3>Caring for our elders.</h3>
+                <p>We give you a reason to live longer on earth.</p>
+            </div>
+            <div class="card">
+                <img src="photos/advice.jpg" alt="Doctor">
+                <h3>Care for infants.</h3>
+                <p>Our team providing compassionate prea and post-natal care.</p>
+            </div>
+        </div>
+    </main>
+   </section>
+
+
+<!-- SERVICES -->
+   <section id="services">
+    <main class="content">
+        <h2>Our Services</h2>
+        <div class="service-card-container">
+            <div class="service-card">
+                <img src="photos/consultation.jpg" alt="Service">
+                <h3>Medical Consultation</h3>
+                <p>Our experienced doctors provide comprehensive medical consultations.</p>
+            </div>
+            <div class="service-card">
+                <img src="photos/eyetest.jpg" alt="Service">
+                <h3>Diagnostic Tests</h3>
+                <p>We offer a wide range of diagnostic tests for accurate medical assessments.</p>
+            </div>
+            <div class="service-card">
+                <img src="photos/operation.jpg" alt="Service">
+                <h3>Surgery</h3>
+                <p>Our skilled surgeons perform various surgical procedures with precision.</p>
+            </div>
+
+            <div class="service-card-container">
+                <div class="service-card">
+                    <img src="photos/animal.jpg" alt="Service">
+                    <h3>Animal section</h3>
+                    <p>Our experienced doctors provide medical treatment to pets.</p>
+                </div>
+                <div class="service-card">
+                    <img src="photos/wards.jpg" alt="Service">
+                    <h3>Diagnostic Tests</h3>
+                    <p>We offer a top notch hospitalization.</p>
+                </div>
+                <div class="service-card">
+                    <img src="photos/research.jpg" alt="Service">
+                    <h3>Surgery</h3>
+                    <p>Our skilled pharmacists perform various lab tests before prescription.</p>
+                </div>
+
+        </div>
+    </main>
+   </section>
+
+
+<!-- LOGIN -->
+   <section id="login">
+    <div class="container">
+        <h1>Login!</h1>
+        <form action="#" method="POST" class="user" name="myform1" onsubmit="return validate()">
+          <div class="form-group">
+            <input type="email" class="" name="email" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address...">
+          </div>
+          <div class="form-group">
+            <input type="password" class="" name="pass" id="exampleInputPassword" placeholder="Password">
+          </div>
+          <div class="">
+            <div class="">
+              <input type="checkbox" class="custom-control-input" id="customCheck">
+              <label class="c" for="customCheck">Remember Me</label>
+            </div>
+          </div>
+          <button class="btn" >Login</button>
+        </form>
+        <hr>
+        <a class="small" href="forget-password.html">Forgot Password?</a>
+        <a class="small" href="registration.html">Create an Account!</a>
+      </div>
+   </section>
+
+
+   <section id="contact">  
+    <main class="content">
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+            <form>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name">
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Email Address">
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" placeholder="Your Message"></textarea>
+
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+        </div>
+    </main>
+   </section>
+
+   <footer class="footer">
+    <p>&copy; 2023 MzegeHospital All rights reserved.</p>
+   </footer>
+    <script src="script.js"></script>
+</body>
+</html>
